@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+  }
+body{
+    font-family: $fuente;
+    font-weight: 400;
+	color: $color-main;
+	font-size: $fuente-regular;
+}
+//------Inicio------
+//Header
+.titulo{
+	padding-top: 30px;
+	font-size: $fuente-grande;
+	font-weight: $fuente-weight-resaltado;
+}
+.portada{
+	margin-top: 50px;
+	width: 100%;
+	background-image: url(../imagenes/mate-campo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	max-width: 1024;
+}
+
+@media all and (max-width: 380px){
+	.portada{
+		height: 50vh;
+		background-image: url(../imagenes/mate-campo-mobile.jpg);
+	}
+}
+@media screen and (min-width: 381px) and (max-width: 800px){
+	.portada{
+		height: 60vh;
+		background-image: url(../imagenes/mate-campo-tablet.jpg);
+	}
+}
+.boton{
+	margin-bottom: .5rem;
+    &:hover{
+		background-color: #000;
+		border-color: #000;
+		color: $color-secondary;
+	}
+}
+.botonesHeader{
+	margin-right: 5px;
+	span{
+		color: #000;
+	}
+	a{
+		list-style: none;
+		text-decoration: none;
+		color: $color-main;
+		&focus{
+			background-color: #000;
+		}
+	}
+}
+//------Productos------
+ .cardsProductos{
+	width: 215px;
+	margin: 20px auto;
+	background-color: #fff ;
+	transition: all 450ms ease-in-out;
+	border-radius: .5rem;
+	box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+	&:hover{
+		transform: scale(1.1);
+ 	}
+ 	 h3, div {
+		font-size: 1rem;
+ 	 	text-align: left;
+ 	 	margin-left: 1rem;
+ 	 }
+ 	 img{
+ 		border-radius: .5rem;
+ 		margin: auto;
+ 	 	width: 215px;
+ 	 	height: 200px;	
+ 	 }
+	button{
+		font-size: .7rem;
+		width: 130px;
+		margin: 1rem;
+		background-color: #989fb3;
+	}
+ }
+ //Notificación
+.activar{
+	text-align: center;
+    position: fixed;
+	margin-top: 100px;
+    padding: 0 50px;
+    border-radius: 1rem;
+    z-index: 200;
+}
+//------Carrito------
+#boxCarrito{
+	width: 500px;
+	margin: auto;
+	img{
+		border-radius: .5rem;
+		margin: auto;
+		width: 150px;
+		height: 150px;
+	}
+	button{
+		font-size: .7rem;
+		width: 70px;
+		margin: .5rem;
+	}
+}
+.notificacionCarrito{
+	font-size: 1rem;
+}
+
+.prodTotal{
+	font-size: 1rem;
+}
+//Contacto
+.form-control{
+	resize: none;
+}
+.reseteoFormBtn{
+	input:hover, input:focus, textarea:focus, button:focus {
+	   outline: none;
+	   box-shadow: none;
+	   border: 1px solid #000;
+   }
+}
+//Footer
+.informacionFooter{
+	margin-top: 2rem;
+	padding-top: 1rem;
+	background-color: #5f5f6e;
+	p img{
+		width: 20px;
+		height: 20px;
+	}
+	.socialMedia{
+		height: 35px;
+		width: 35px;
+		display: inline-block;
+		line-height: 28px;
+		margin: 0 .3rem 1rem 0;
+		text-align: center;
+		border-radius: 50%;
+		border: 1px rgba(0, 0, 0, .2) solid;
+		transition: 450ms ease-in-out;
+		color: $color-main;
+		&:hover{
+			background-color: #ffffff;
+			transition: 450ms ease-in-out;
+			color: $color-secondary;
+		}
+	}
+}
+.footer{
+	background-color: #4e4e5f;
+	p{
+        color: $color-main;
+		font-size: $fuente-chico;
+		margin: 0;
+	}
+}

@@ -1,0 +1,41 @@
+[{
+    "id": 1, 
+    "producto": "Mate Imperial", 
+    "precio": 7500, 
+    "url": "productos/mate-imperial.jpg"
+}, {
+    "id": 2, 
+    "producto": "Mate Calabaza - A", 
+    "precio": 5500, 
+    "url": "productos/mate-calabaza.jpg"
+}, {
+    "id": 3, 
+    "producto": "Mate Calabaza - B", 
+    "precio": 5500, 
+    "url": "productos/mate-calabaza-2.jpg"
+}, {
+    "id": 4, 
+    "producto": "Mate Calabaza - C", 
+    "precio": 6000, 
+    "url": "productos/mate-calabaza-3.jpg"
+}, {
+    "id": 5, 
+    "producto": "Mate Algarrobo - A", 
+    "precio": 6500, 
+    "url": "productos/mate-algarrobo-1.jpg"
+}, {
+    "id": 6, 
+    "producto": "Mate Algarrobo - B", 
+    "precio": 6500, 
+    "url": "productos/mate-algarrobo-2.jpg"
+}, {
+    "id": 7, 
+    "producto": "Mate Algarrobo - C", 
+    "precio": 8500, 
+    "url": "productos/mate-algarrobo-3.jpg"
+}, {
+    "id": 8, 
+    "producto": "Mate Algarrobo - D", 
+    "precio": 6000, 
+    "url": "productos/mate-algarrobo-4.jpg"
+}]
