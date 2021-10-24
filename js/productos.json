@@ -38,4 +38,24 @@
     "producto": "Mate Algarrobo - D", 
     "precio": 6000, 
     "url": "productos/mate-algarrobo-4.jpg"
+}, {
+    "id": 9, 
+    "producto": "Mate Plata - A", 
+    "precio": 7500, 
+    "url": "productos/mate-plata-1.jpg"
+}, {
+    "id": 10, 
+    "producto": "Mate Plata - B", 
+    "precio": 8500, 
+    "url": "productos/mate-plata-2.jpg"
+}, {
+    "id": 11, 
+    "producto": "Mate Plata - C", 
+    "precio": 8500, 
+    "url": "productos/mate-plata-3.jpg"
+}, {
+    "id": 12, 
+    "producto": "Mate Plata - D", 
+    "precio": 8000, 
+    "url": "productos/mate-plata-4.jpg"
 }]
